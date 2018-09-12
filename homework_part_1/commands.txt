@@ -1,0 +1,68 @@
+1. cd death_star/
+touch darth_vadar.txt princess_leaia.txt storm_trooper.txt
+
+2.mkdir galaxy_far_far_away
+cd galaxy_far_far_away/
+mkdir tatooine
+cd tatooine/
+touch luke.txt ben_kenobi.txt
+
+3.mkdir millenium_falcon
+cd millenium_falcon/
+touch han_solo.txt chewbaca.txt
+
+4.cd ..
+mv ben_kenobi.txt obi_wan.txt
+
+5.Andys-MacBook-Pro:homework_part_1 andyprudhomme$ cp death_star/storm_trooper.txt galaxy_far_far_away/tatooine/
+
+6.Andys-MacBook-Pro:tatooine andyprudhomme$ mv luke.txt millenium_falcon
+Andys-MacBook-Pro:tatooine andyprudhomme$ mv obi_wan.txt millenium_falcon/
+
+7.Andys-MacBook-Pro:homework_part_1 andyprudhomme$ mv galaxy_far_far_away/tatooine/millenium_falcon/ death_star/
+
+8.Andys-MacBook-Pro:homework_part_1 andyprudhomme$ mv galaxy_far_far_away/tatooine/millenium_falcon/ death_star/
+
+9.Andys-MacBook-Pro:death_star andyprudhomme$ mv princess_leaia.txt millenium_falcon/
+
+10.Andys-MacBook-Pro:millenium_falcon andyprudhomme$ rm obi_wan.txt 
+
+11.Andys-MacBook-Pro:galaxy_far_far_away andyprudhomme$ mkdir yavin_4
+
+12.Andys-MacBook-Pro:homework_part_1 andyprudhomme$ mv death_star/millenium_falcon/ galaxy_far_far_away/yavin_4/
+
+13.Andys-MacBook-Pro:yavin_4 andyprudhomme$ mkdir x_wing
+
+14.Andys-MacBook-Pro:galaxy_far_far_away andyprudhomme$ mv yavin_4/millenium_falcon/luke.txt yavin_4/x_wing/
+
+Andys-MacBook-Pro:galaxy_far_far_away andyprudhomme$ mv yavin_4/millenium_falcon/princess_leaia.txt yavin_4
+
+
+15.Andys-MacBook-Pro:homework_part_1 andyprudhomme$ mv galaxy_far_far_away/yavin_4/millenium_falcon/ galaxy_far_far_away/
+
+16.Andys-MacBook-Pro:death_star andyprudhomme$ mkdir tie_fighter_1 tie_fighter_2 tie_fighter_3
+
+17. mv darth_vadar.txt tie_fighter_1/
+
+18.Andys-MacBook-Pro:galaxy_far_far_away andyprudhomme$ cp tatooine/storm_trooper.txt tie_fighter_2/
+
+Andys-MacBook-Pro:galaxy_far_far_away andyprudhomme$ cp tatooine/storm_trooper.txt tie_fighter_3/
+
+19.Andys-MacBook-Pro:homework_part_1 andyprudhomme$ mv death_star/tie_fighter_1/ galaxy_far_far_away/
+Andys-MacBook-Pro:homework_part_1 andyprudhomme$ mv death_star/tie_fighter_2/ galaxy_far_far_away/
+Andys-MacBook-Pro:homework_part_1 andyprudhomme$ mv death_star/tie_fighter_3/ galaxy_far_far_away/
+
+
+20.Andys-MacBook-Pro:galaxy_far_far_away andyprudhomme$ rm -r tie_fighter_3
+Andys-MacBook-Pro:galaxy_far_far_away andyprudhomme$ rm -r tie_fighter_2
+
+
+21.Andys-MacBook-Pro:x_wing andyprudhomme$ touch the_force.txt
+
+22.Andys-MacBook-Pro:homework_part_1 andyprudhomme$ rm -r death_star/
+
+23.Andys-MacBook-Pro:galaxy_far_far_away andyprudhomme$ mv x_wing/ yavin_4/
+Andys-MacBook-Pro:galaxy_far_far_away andyprudhomme$ mv millenium_falcon/ yavin_4/
+
+
+
